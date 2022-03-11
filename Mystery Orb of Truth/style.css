@@ -1,0 +1,59 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    
+    background: radial-gradient(lightgrey, darkslategrey)
+}
+#container {
+    width: 500px;
+    
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+#ballBody {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 100%;
+    display: grid;
+    margin-top: 20px;
+}
+#eyes {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+#eye1 {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#eye2 {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#answer {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#shakeButton {
+    margin-top: 10px;
+}
+#textBox {
+    height: 50px;
+    width: 300px;
+}
