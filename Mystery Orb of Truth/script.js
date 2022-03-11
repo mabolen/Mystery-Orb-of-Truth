@@ -1,7 +1,7 @@
 let randomNumber = (max_number) => {
     return Math.round(Math.random()*max_number)
 };
-console.log(randomNumber(10));
+//console.log(randomNumber(10));
 let shakeButton = document.querySelector("#shakeButton");
 let answer = document.querySelector("#answer");
 shakeButton.addEventListener('click', function() {
